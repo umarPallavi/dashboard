@@ -1,0 +1,32 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  position: relative;
+}
+.navbutton {
+  position: relative;
+  border-radius: 50%;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border: none;
+  background-color: #fafbfb;
+}
+.navbutton:hover {
+  background-color: #f7f7f7;
+}
+.navspan {
+  position: absolute;
+  display: inline-flex;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.navbar-item{
+  display: flex;
+}

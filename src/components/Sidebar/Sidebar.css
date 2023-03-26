@@ -1,0 +1,76 @@
+.sidebar {
+  margin-left: 0.75rem;
+  height: 100vh;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  margin-left: 0.75rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: rgb(15 23 42);
+  gap: 0.75rem;
+  text-decoration: none;
+}
+.logo {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.cancle-button {
+  display: block;
+  background-color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 1rem;
+}
+.cancle-button:hover {
+  background-color: #f7f7f7;
+}
+.sidebar-content {
+  margin-top: 2.5rem;
+}
+.sidebar-title {
+  margin: 0.75rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: rgb(156 163 175);
+}
+.activeLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0 0.625rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.normalLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0 0.65rem 1rem;
+  border-radius: 8px;
+  color: rgb(55 65 81);
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .5ms ease;
+}
+.normalLink:hover {
+  background-color: #f7f7f7;
+  margin: 0.5rem;
+}

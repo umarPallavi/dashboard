@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.main-div {
+  display: flex;
+  position: relative;
+}
+.tooltip {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+.tooltip button {
+  border-radius: 50%;
+  padding: 3px;
+  border: none;
+  background-color: #fff;
+  font-size: 1.953rem;
+}
+.tooltip button:hover {
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  background-color: #f7f7f7;
+}
+.open-sidebar {
+  position: fixed;
+  width: 18rem;
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.close-sidebar {
+  width: 0px;
+}
+.full-navbar {
+  background-color: #fafbfb;
+  width: 100%;
+  min-height: 100vh;
+}
+.half-navbar {
+  background-color: #fafbfb;
+  width: 100%;
+  margin-left: 18rem;
+  flex: 2;
+  min-height: 100vh;
+}
+.navbar {
+  position: fixed;
+  background-color: #fafbfb;
+  width: 100%;
+  z-index: 10000;
+}
